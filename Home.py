@@ -33,7 +33,7 @@ def fit_to_aspect_ratio(image, target_ratio=8.5/11):
     return image.crop((left, top, right, bottom))
 
 st.title("White Border")
-st.text("Written for Tatiana bc she can't use GIMP 😔✊")
+st.text("Written for Tatiana bc she is incapable of using GIMP 😔✊")
 
 uploaded_files = st.file_uploader("Upload image files (don't ZIP them, you can upload multiple files at once)", accept_multiple_files=True, type=['png', 'jpg', 'jpeg'])
 
